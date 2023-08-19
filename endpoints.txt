@@ -1,0 +1,25 @@
+http://localhost:4000/api/count/gender
+http://localhost:4000/api/count/language
+http://localhost:4000/api/count/major
+
+http://localhost:4000/api/metric/topSeven/Overall/0?gender=All&language=All&major=All
+http://localhost:4000/api/metric/topSeven/Overall/5?gender=Male&language=Tamil&major=Biology
+
+
+// Subject & language & major should match
+http://localhost:4000/api/metric/topSeven/Tamil/0?gender=All&language=Tamil&major=All
+http://localhost:4000/api/metric/topSeven/Economics/5?gender=Female&language=Tamil&major=Commerce
+
+http://localhost:4000/api/metric/performanceClass/Overall/20?gender=All&language=Tamil&major=All
+http://localhost:4000/api/metric/performanceClass/Maths/20?gender=All&language=Tamil&major=All
+http://localhost:4000/api/metric/performanceClass/Chemistry/8?gender=Female&language=Tamil&major=Computer
+
+
+http://localhost:4000/api/metric/allStudentsScores/Overall/3?gender=All&language=French&major=All
+http://localhost:4000/api/metric/allStudentsScores/English/3?gender=All&language=French&major=All
+http://localhost:4000/api/metric/allStudentsScores/Biology/10?gender=Female&language=Hindi&major=Biology
+
+
+http://localhost:4000/api/gridData/Overall?gender=Female&language=Hindi&major=Commerce
+http://localhost:4000/api/gridData/Accountancy?gender=Female&language=Hindi&major=Commerce
+http://localhost:4000/api/gridData/Computer?gender=Female&language=Hindi&major=Computer
